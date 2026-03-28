@@ -46,7 +46,7 @@ const Header = () => {
     Cookies.remove("adminInfo");
     reduxDisPatch(emptySideBarMenu());
     reduxDisPatch(emptySetting());
-    window.location.replace(`${import.meta.env.VITE_APP_ADMIN_DOMAIN}/login`);
+    window.location.replace(`${import.meta.env.VITE_APP_STORE_DOMAIN}/login`);
   };
 
   useEffect(() => {

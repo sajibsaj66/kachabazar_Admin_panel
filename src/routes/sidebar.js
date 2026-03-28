@@ -85,7 +85,7 @@ const sidebar = [
   {
     icon: FiTarget,
     name: "ViewStore",
-    path: "http://localhost:3000",
+    path: "https://admin-kachabazar.deshit-bd.com",
     outside: "store",
   },
 
